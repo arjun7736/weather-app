@@ -21,6 +21,10 @@ npm install
 ```sh
 npm run dev
 ```
+### Select any City for show the data
+
+
+
 
 ### Compile and Minify for Production
 
