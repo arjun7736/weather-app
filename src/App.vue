@@ -3,7 +3,7 @@
     <div class="p-6 lg:p-12 rounded-xl flex flex-col lg:flex-row lg:w-3/4 space-y-6 lg:space-y-0 lg:space-x-8 shadow-lg">
 
       <!-- City Selection -->
-      <div class="backdrop-blur-lg p-4 rounded-xl mb-6">
+      <div class="backdrop-blur-lg p-4 rounded-xl mb-6 h-12">
         <select v-model="selectedCity" @change="fetchWeatherData">
           <option value="">Select a City</option>
           <option v-for="(city, index) in cities" :key="index" :value="city">{{ city }}</option>
